@@ -11,26 +11,28 @@ const Experience = () => {
             <h2> Experience </h2>
 
         </div>
-        <div>
+        <div >
             <p>Full Stack Developer - Sheridan College (S-Sense Platform)</p>
             <p>January 2023 - August 2023</p>
 
-            <ul class="list-disc ml-5">
-                <li> Point 1</li>
-                <li> Point 2</li>
-                <li> Point 3</li>
-                <li> Point 4</li>
+            
+            <ul class="list-disc ml-5 mt-6 space-y-4">
+                <li> Developed a REST API using the .NET framework with MongoDB to optimize data management to enhance system efficiency </li>               
+                <li> Reported and assisted with the development of new and existing features</li>
+                <li> Followed internal processes and procedures for versioning and documentation of code</li>
+                <li> Participated in testing and implementing feedback based on bug fixes and feature updates</li>
             </ul>
+            
         </div>
 
         <div>
             <p>Web Developer - Oakville Film Festival</p>
             <p>May 2022 - August 2022</p>
-            <ul class="list-disc ml-5">
-                <li> Point 1</li>
-                <li> Point 2</li>
-                <li> Point 3</li>
-                <li> Point 4</li>
+
+            <ul class="list-disc ml-5 mt-6 space-y-4">
+                <li> Collaborated with a team to create a web application prototype using FIGMA, ensuring alignment with project objectives and user needs</li>
+                <li> Crafted a service path for the film festival customers, incorporating user feedback to enhance the customer experience</li>
+                
             </ul>
         </div>
 
