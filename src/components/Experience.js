@@ -8,11 +8,12 @@ const Experience = () => {
 
 
         <div>
-            <h2> Experience </h2>
+            <h2 class="text-2xl sm:text-3xl font-bold text-black"> Experience </h2>
 
         </div>
         <div >
-            <p>Full Stack Developer - Sheridan College (S-Sense Platform)</p>
+            <p class="text-lg font-bold text-black">
+                Full Stack Developer - Sheridan College (S-Sense Platform)</p>
             <p>January 2023 - August 2023</p>
 
             
@@ -26,7 +27,7 @@ const Experience = () => {
         </div>
 
         <div>
-            <p>Web Developer - Oakville Film Festival</p>
+            <p class="text-lg font-bold text-black">Web Developer - Oakville Film Festival</p>
             <p>May 2022 - August 2022</p>
 
             <ul class="list-disc ml-5 mt-6 space-y-4">
