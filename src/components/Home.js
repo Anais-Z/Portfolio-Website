@@ -12,6 +12,10 @@ const Home = () => {
         <h2 className='text-blue-700 py-4 max-w-[700px]'>I'm a full stack developer who specialize in building web and mobile apps with an interest 
           AI/ml learning
         </h2>
+
+        <div>
+        <button className='text-black border-4 border-black px-6 py-3 my-2 flex items-center hover:bg-black hover:text-white'> Continue</button>
+      </div>
         
       </div>
 
