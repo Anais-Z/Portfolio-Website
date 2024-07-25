@@ -30,11 +30,11 @@ const Projects = () => {
                     <p>Description</p>
                </div>
 
-               <div className='flex flex-row gap-2'>
-                    <p> React Native</p>
-                    <p> Flask</p>
-                    <p> Firebase</p>
-                    <p> AWS</p>
+               <div className='flex flex-row gap-2 text-white'>
+                    <p className='border-4 border-purple-600 bg-purple-600 rounded-md text-sm text-center'> React Native</p>
+                    <p className='border-4  border-purple-600 bg-purple-600 rounded-md text-sm text-center'> Flask</p>
+                    <p className='border-4  border-purple-600 bg-purple-600 rounded-md text-sm text-center'> Firebase</p>
+                    <p className='border-4  border-purple-600 bg-purple-600 rounded-md text-sm text-center'> AWS</p>
                    
                </div>
                
@@ -62,11 +62,11 @@ const Projects = () => {
                     <p>Description</p>
                </div>
 
-               <div className='flex flex-row gap-2'>
-                    <p> SwiftUI</p>
-                    <p> WatchOS</p>
-                    <p> Core Location </p>
-                    <p> Firebase</p>
+               <div className='flex flex-row gap-2  text-white'>
+                    <p className='border-4  border-purple-600 bg-purple-600 rounded-md text-sm text-center'> SwiftUI</p>
+                    <p className='border-4  border-purple-600 bg-purple-600 rounded-md text-sm text-center'> WatchOS</p>
+                    <p className='border-4  border-purple-600 bg-purple-600 rounded-md text-sm text-center'> Core Location </p>
+                    <p className='border-4  border-purple-600 bg-purple-600 rounded-md text-sm text-center'> Firebase</p>
                    
                </div>
                
@@ -94,11 +94,11 @@ const Projects = () => {
                     <p>Description</p>
                </div>
 
-               <div className='flex flex-row gap-2'>
-                    <p> React Native</p>
-                    <p> Flask</p>
-                    <p> Firebase</p>
-                    <p> AWS</p>
+               <div className='flex flex-row gap-2 text-white'>
+                    <p className='border-4  border-purple-600 bg-purple-600 rounded-md text-sm text-center'> React Native</p>
+                    <p className='border-4  border-purple-600 bg-purple-600 rounded-md text-sm text-center'> Flask</p>
+                    <p className='border-4  border-purple-600 bg-purple-600 rounded-md text-sm text-center'> Firebase</p>
+                    <p className='border-4  border-purple-600 bg-purple-600 rounded-md text-sm text-center'> AWS</p>
                    
                </div>
                
