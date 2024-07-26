@@ -7,10 +7,11 @@ const Home = () => {
       
       {/** Container */}
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
-        <p className='text-red-500'>Hello, I am</p>
+        <p className='text-black'>Hello, I am</p>
         <h1 className='text-4xl sm:text-7xl font-bold text-black'>Anais</h1>
-        <h2 className='text-blue-700 py-4 max-w-[700px]'>I'm a full stack developer who specialize in building web and mobile apps with an interest 
-          AI/ml learning
+        <h2 className='text-blue-700 font-bold py-4 max-w-[700px]'>I'm a full stack developer with an interest in
+          AI/Machine learning. I have experience developing many web and mobile apps and with several languages and frameworks.
+          I always take the time to learn new skills and expand my knowledge. 
         </h2>
 
         <div>

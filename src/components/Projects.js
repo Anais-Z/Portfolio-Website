@@ -31,7 +31,7 @@ const Projects = () => {
       </div>
 
       <div>
-        <p>
+        <p className='font-bold'>
           A mobile app for finding natural remedies. It offers navigation through various systems, a search function, an A-Z herb directory, personal notes, bookmarks, and social sharing. The app uses machine learning to recommend herbs based on user responses and includes a text-to-speech option for accessibility. It also supports user engagement through in-app donations.
         </p>
       </div>
@@ -60,7 +60,7 @@ const Projects = () => {
       </div>
 
       <div>
-        <p>
+        <p className='font-bold'>
           An e-commerce app enabling users to sign up, log in, select products, add items to a cart, and view store locations. Features include Firebase-based authentication, session management, and persistent cart storage. Users can view products, use geocoding, access a map view, and log out.
         </p>
       </div>
@@ -88,7 +88,7 @@ const Projects = () => {
       </div>
 
       <div>
-        <p>
+        <p className='font-bold'>
           A comprehensive app providing access to Sheridan's resources and services. Features include user authentication, resource management, and interactive tools for students and staff.
         </p>
       </div>
