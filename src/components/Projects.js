@@ -3,7 +3,12 @@ import herbMateImage from '../assets/HerbMate_img.png'
 import accessSheridan from '../assets/access_sheridan_img.png'
 import oneShop from '../assets/oneshopimg.png'
 
+
 const Projects = () => {
+
+  const url="https://google.com"
+
+
   return (
     <div name="projects" className='w-full h-screen bg-white text-black'>
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col h-full space-y-8'>
@@ -20,8 +25,9 @@ const Projects = () => {
       <div className='text-xl font-bold'>Herb Mate</div>
 
       <div className='flex flex-row gap-4'>
-        <div className='text-blue-500 cursor-pointer'>Github</div>
-        <div className='text-blue-500 cursor-pointer'>Youtube</div>
+        <p className='border-4 border-blue-500 bg-blue-500 rounded-md text-sm text-white text-center px-2'>
+          <a href="https://github.com/MobinAkhter/herballife" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </p>
       </div>
 
       <div>
@@ -47,8 +53,10 @@ const Projects = () => {
       <div className='text-xl font-bold'>One Shop</div>
 
       <div className='flex flex-row gap-4'>
-        <div className='text-blue-500 cursor-pointer'>Github</div>
-        <div className='text-blue-500 cursor-pointer'>Youtube</div>
+        <p className='border-4 border-blue-500 bg-blue-500 rounded-md text-sm text-white text-center px-2'>
+        <a href="https://github.com/MobinAkhter/OneShop" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </p>
+        
       </div>
 
       <div>
@@ -74,8 +82,9 @@ const Projects = () => {
       <div className='text-xl font-bold'>Access Sheridan 2.0</div>
 
       <div className='flex flex-row gap-4'>
-        <div className='text-blue-500 cursor-pointer'>Github</div>
-        <div className='text-blue-500 cursor-pointer'>Youtube</div>
+         <p className='border-4 border-blue-500 bg-blue-500 rounded-md text-sm text-white text-center px-2'>
+         <a href="https://github.com/MobinAkhter/Access-Sheridan-2.0" target="_blank" rel="noopener noreferrer">GitHub</a>
+         </p>
       </div>
 
       <div>
@@ -85,10 +94,12 @@ const Projects = () => {
       </div>
 
       <div className='flex flex-row gap-2 text-white'>
-        <p className='border-4 border-purple-600 bg-purple-600 rounded-md text-sm text-center px-2'>React Native</p>
-        <p className='border-4 border-purple-600 bg-purple-600 rounded-md text-sm text-center px-2'>Flask</p>
-        <p className='border-4 border-purple-600 bg-purple-600 rounded-md text-sm text-center px-2'>Firebase</p>
-        <p className='border-4 border-purple-600 bg-purple-600 rounded-md text-sm text-center px-2'>AWS</p>
+        <p className='border-4 border-purple-600 bg-purple-600 rounded-md text-sm text-center px-2'>C#</p>
+        <p className='border-4 border-purple-600 bg-purple-600 rounded-md text-sm text-center px-2'>DOT.NET</p>
+        <p className='border-4 border-purple-600 bg-purple-600 rounded-md text-sm text-center px-2'>HTML</p>
+        <p className='border-4 border-purple-600 bg-purple-600 rounded-md text-sm text-center px-2'>SCSS</p>
+        <p className='border-4 border-purple-600 bg-purple-600 rounded-md text-sm text-center px-2'>JavaScript</p>
+        
       </div>
     </div>
   </div>
