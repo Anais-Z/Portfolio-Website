@@ -8,10 +8,10 @@ const Experience = () => {
 
 
         <div>
-            <h2 class="text-2xl sm:text-3xl font-bold text-black"> Experience </h2>
+            <h2 className="text-2xl sm:text-3xl font-bold text-black"> Experience </h2>
         </div>
         <div >
-            <p class="text-lg font-bold text-blue-700">
+            <p className="text-lg font-bold text-blue-700">
                 Full Stack Developer - Sheridan College (S-Sense Platform)</p>
             <p className='font-bold'>January 2023 - August 2023</p>
 
