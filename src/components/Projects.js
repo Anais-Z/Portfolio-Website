@@ -10,16 +10,16 @@ const Projects = () => {
 
 
   return (
-    <div name="projects" className='w-full h-screen bg-white text-black'>
-      <div className='max-w-[1000px] mx-auto px-8 flex flex-col h-full space-y-8'>
-        <div>
+    <div name="projects" className='w-full h-auto bg-white text-black py-16'>
+      <div className='max-w-[1000px] mx-auto px-8 flex flex-col h-full space-y-10 pt-16 sm:pt-32'>
+        <div className='mt-16 sm:mt-32'>
           <h2 className="text-2xl sm:text-3xl font-bold text-black">Projects</h2>
         </div>
 
         <div className='flex flex-col gap-10'>
   {/* Project 1 */}
   <div className='flex flex-row gap-10 items-center'>
-    <img src={herbMateImage} className='w-40 h-40' />
+    <img src={herbMateImage} className='w-40 h-40 hidden md:block' />
 
     <div className='flex flex-col gap-4'>
       <div className='text-xl font-bold'>Herb Mate</div>
@@ -47,7 +47,7 @@ const Projects = () => {
 
   {/* Project 2 */}
   <div className='flex flex-row gap-10 items-center'>
-    <img src={oneShop} className='w-40 h-40' />
+    <img src={oneShop} className='w-40 h-40 hidden md:block'/>
 
     <div className='flex flex-col gap-4'>
       <div className='text-xl font-bold'>One Shop</div>
@@ -76,7 +76,7 @@ const Projects = () => {
 
   {/* Project 3 */}
   <div className='flex flex-row gap-10 items-center'>
-    <img src={accessSheridan} className='w-40 h-40' />
+    <img src={accessSheridan} className='w-40 h-40 hidden md:block' />
 
     <div className='flex flex-col gap-4'>
       <div className='text-xl font-bold'>Access Sheridan 2.0</div>
@@ -104,11 +104,6 @@ const Projects = () => {
     </div>
   </div>
 </div>
-
-
-      
-
-
       </div>
     </div>
   )

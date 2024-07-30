@@ -3,13 +3,12 @@ import React from 'react'
 
 const Experience = () => {
   return (
-    <div name='about' className='w-full h-screen bg-white text-black'>
+    <div name='about' className='w-full h-auto bg-white text-black py-16'>
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col h-full space-y-16'>
 
 
         <div>
             <h2 class="text-2xl sm:text-3xl font-bold text-black"> Experience </h2>
-
         </div>
         <div >
             <p class="text-lg font-bold text-blue-700">
