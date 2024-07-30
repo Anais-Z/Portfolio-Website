@@ -10,9 +10,9 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav)
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-slate-900 text-white'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-black text-white'>
         <div>
-            <p style={{width: '90px'}}>Anais</p>
+            <p>Anais Zulfequar </p>
         </div>
 
         {/* main menu */}
