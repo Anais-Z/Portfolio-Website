@@ -1,9 +1,9 @@
 import React from 'react'
-
+import { Link } from 'react-scroll';
 
 const Home = () => {
   return (
-    <div name="name" className='w-full h-screen bg-white'>
+    <div name="home" className='w-full h-screen bg-white'>
       
       {/** Container */}
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
@@ -15,7 +15,11 @@ const Home = () => {
         </h2>
 
         <div>
-        <button className='text-black border-4 border-black px-6 py-3 my-2 flex items-center hover:bg-black hover:text-white'> Continue</button>
+        <button className='text-black border-4 border-black px-6 py-3 my-2 flex items-center hover:bg-black hover:text-white'> 
+        <Link to='experience' smooth={true} duration={500}>
+                  Continue
+                  </Link>
+          </button>
       </div>
         
       </div>

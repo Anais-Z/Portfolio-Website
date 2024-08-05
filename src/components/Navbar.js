@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import {FaBars, FaTimes, FaGithub, FaLinkedin, FaDev} from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
 
@@ -18,9 +19,22 @@ const Navbar = () => {
         {/* main menu */}
         
             <ul className='hidden md:flex'>
-                <li>Home</li>
-                <li>Experience</li>
-                <li>Projects</li>
+                <li>
+                <Link to='home' smooth={true} duration={500}>
+                  Home
+                  </Link>
+                  </li>
+                
+                <li>
+                  <Link to='experience' smooth={true} duration={500}>
+                  Experience
+                  </Link>
+                  </li>
+                <li>
+                <Link to='projects' smooth={true} duration={500}>
+                  Projects
+                  </Link>
+                  </li>
             </ul>
         
 
@@ -32,9 +46,23 @@ const Navbar = () => {
          {/* mobile menu */}
          
          <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-slate-800 flex flex-col justify-center items-center'}>
-                <li className='py-6 text-4xl'>Home</li>
-                <li className='py-6 text-4xl'>Experience</li>
-                <li className='py-6 text-4xl'>Projects</li>
+                <li  className='py-6 text-4xl'>
+                <Link onClick={handleClick} to='home' smooth={true} duration={500}>
+                  Home
+                  </Link>
+                </li>
+
+                <li className='py-6 text-4xl'>
+                <Link onClick={handleClick} to='experience' smooth={true} duration={500}>
+                  Experience
+                  </Link>
+                </li>
+
+                <li className='py-6 text-4xl'>
+                  <Link onClick={handleClick} to='projects' smooth={true} duration={500}>
+                  Projects
+                  </Link>
+                </li>
             </ul>
            
 

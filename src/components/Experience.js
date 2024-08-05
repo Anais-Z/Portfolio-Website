@@ -1,9 +1,10 @@
 import React from 'react'
 
 
+
 const Experience = () => {
   return (
-    <div name='about' className='w-full h-auto bg-white text-black py-16'>
+    <div name='experience' className='w-full h-auto bg-white text-black py-16'>
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col h-full space-y-16'>
 
 
